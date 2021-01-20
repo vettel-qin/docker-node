@@ -1,0 +1,15 @@
+{
+  "name": "docker-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vettel-qin/docker-node.git",
+  "author": "Spencer <Spencer2017@126.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./start.js"
+  },
+  "dependencies": {
+    "koa": "^2.13.1",
+    "nodemon": "^2.0.7"
+  }
+}
